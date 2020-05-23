@@ -1,0 +1,5 @@
+brasileirão = ('Santos', 'Palmeiras', 'Flamengo', 'Atlético-MG', 'Corinthians', 'São Paulo', 'Internacional', 'Athletico-PR', 'Botafogo', 'Bahia', 'Ceará', 'Goiás','Grêmio', 'Fortaleza', 'Vasco', 'Fluminense', 'Chapecoense', 'Cruzeiro', 'CSA', 'Avaí')
+print(f'Os 5 primeiros colocados do Brasileirão são: {brasileirão[:5]}')
+print(f'Os 4 ultimos colocados do Brasileirão são: {brasileirão[16:]}')
+print(f'Esta é a lista do Brasileirão organizada em ordem alfabetica{sorted(brasileirão)}')
+print(f'O chapecoence esta na posicão{brasileirão.index("Palmeiras")+1}')
